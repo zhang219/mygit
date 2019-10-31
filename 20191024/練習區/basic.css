@@ -1,6 +1,5 @@
-:root {
-	--back_color: red; /* Default value */
-	--heartbeat: 0s; /* Default value */
+:root{
+	--back_color: yellow;
 }
 
 body {
@@ -10,10 +9,10 @@ body {
 
 /* Style the header */
 header {
-    background-color: #666;
-    padding: 5px;
-    text-align: center;
-    color: white;
+	background-color: #666;
+	padding: 5px;
+	text-align: center;
+	color: white;
 }
 
 section {
@@ -22,16 +21,16 @@ section {
 
 /* Style the footer */
 footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
 }
 
 div.grid1 {
 	background-color: var(--back_color);
 	animation-name: ani_grid1;
-    animation-duration: 4s;
+	animation-duration: 4s;
 }
 
 div.grid2 {
@@ -51,8 +50,8 @@ div.grid4 {
 
 /* CSS transform standard syntax */
 @keyframes ani_grid1 {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
 }
 
 @keyframes ani_grid2 {
@@ -66,7 +65,7 @@ div.grid4 {
 
 .fas {
 	animation-name: heartbeat;
-    animation-duration: var(--heartbeat);
+	animation-duration: var(--heartbeat);
 	animation-iteration-count: infinite;
 }
 
