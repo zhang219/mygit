@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS RWD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 					<!-- 判斷螢幕寬度 -->
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" media="(max-width: 420px)" href="a.css"> 						<!-- 螢幕寬度小於 420px，使用 a.css -->
+    <link rel="stylesheet" media="(min-width: 421px) and (max-width: 840px)" href="b.css"> <!-- 螢幕寬度大於 421px 且小於 840px，使用 b.css -->
+    <link rel="stylesheet" media="(min-width: 841px)" href="c.css"> 						<!-- 螢幕寬度大於 841px，使用 c.css -->
+</head>
+
+<body>
+<header>
+    <h1>RWD, CSS 動畫和 CSS 變數</h1>
+</header>
+
+<section>
+    <div class="container">
+        <div class="grid grid1">Grid_1</div>
+        <div class="grid grid2">Grid_2</div>
+        <div class="grid grid3">Grid_3</div>
+        <div class="grid grid4">Grid_4</div>
+    </div>
+</section>
+
+<footer>
+    <p>APP Course Example 2019.10.17</p>
+</footer>
+
+</body>
+</html>
