@@ -1,5 +1,6 @@
 :root{
 	--back_color: yellow;
+	--heartbeat: 0s;
 }
 
 body {
@@ -71,5 +72,5 @@ div.grid4 {
 
 @keyframes heartbeat {
 	from {transform: scale(1,1); color: white;}
-	to {transform: scale(1.2,1.2); color: red;}
+	to {transform: scale(1.2,1.2); color: palevioletred;}
 }
